@@ -1,4 +1,6 @@
-let container = document.getElementById("container");
+const container = document.getElementById("die-container");
+generateDie = document.getElementById("die-button"),
+rollDice = document.getElementById("roll-button")
 let diceArray = [];
 
 class Die {
